@@ -1,0 +1,18 @@
+#blue{
+    background-color: blue;
+}
+.box{
+   width: 100px;
+   height: 100px;
+   margin: 10px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   border: 1px solid black;
+
+}
+#orange{
+    background-color:rgb(100,100,150);
+}
+#green{
+    background-color: green;
+}

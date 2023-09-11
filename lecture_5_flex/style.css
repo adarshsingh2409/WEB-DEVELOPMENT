@@ -1,0 +1,23 @@
+.container{
+    height: 400px;
+    border : 2px solid darkblue;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    flex-wrap:wrap ;
+    justify-content: space-around;
+  
+    align-items: flex-end;
+    align-items: flex-start;
+    justify-content: center;
+    /* align-items: center; */
+    align-content: flex-start;
+    align-content: center;
+    /* gap: 10px; */
+
+}
+.box{
+    border: 1px solid brown;
+    background-color: blueviolet;
+    width: 200px;
+    flex-grow: 1;
+}

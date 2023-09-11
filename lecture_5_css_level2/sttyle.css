@@ -1,0 +1,34 @@
+
+div{
+    color: brown;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border: 1px solid orange;
+    background-color: rgb(126, 137, 157);
+}
+.box{
+  position: relative;
+  left: 10px;
+  top: 25px;
+}
+/* #b2{
+  position: relative; 
+   left: 10px;
+  top: 50px;
+} */
+.wrapper{
+    height: 1000px;
+    width: 100vw;
+    background-color:aqua;
+}
+/* #b3{
+    position: fixed;
+    top: 100px;
+    left: 310px;
+} */
+#b4{
+    position: relative;
+    top: 100px;
+    left: px;
+}
