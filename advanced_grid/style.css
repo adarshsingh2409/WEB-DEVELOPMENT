@@ -1,0 +1,34 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.continer{
+     height: 700px; 
+     /* width: 700px;  */
+    background-color: aquamarine;
+    border: 2px solid burlywood ;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 250px 600px;
+    grid-template-areas: 
+    "hd hd hd hd hd hd hd hd"
+    "main main main main main main side side"
+    "ft ft ft ft ft ft ft ft";
+     /* "hd hd" ;  */
+}
+.box{
+    border: 1px solid black;
+    background-color: antiquewhite;
+}
+#header{
+    grid-area: hd;
+}
+#sidebar{
+    grid-area: side;
+}
+#content{
+    grid-area: main;
+}
+#footer{
+    grid-area: ft;
+}
