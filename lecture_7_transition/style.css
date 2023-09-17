@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 700px;
+    height: 700px;
+    border: 2px solid black;
+    background-color: blueviolet;
+    /* display: flex; */
+    /* overflow-x: hidden; */
+}
+.box{
+   margin: 20px;
+    height: 100px;
+    width: 100px;
+    background-color: bisque;
+    border: 1px solid red;
+    /* transition: transform  ease 1s  ; */
+    transition: transform 2s ease-in 1ms;
+}
+.box:hover{
+     background-color: aqua; 
+    transform: translateX(500px) rotate(360deg);
+    /* transform : ; */
+    
+}
